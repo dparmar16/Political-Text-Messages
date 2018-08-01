@@ -7,7 +7,7 @@ output: html_document
 
 ###Setup
 
-Clear workspace before starting.
+Clear workspace before starting analysis.
 
 ```{r}
 rm(list = ls())
@@ -16,10 +16,12 @@ rm(list = ls())
 Install necessary packages.
 
 ```{r results='hide', warning=FALSE, message = FALSE, eval=FALSE}
+
 install.packages('dplyr')
 library(dplyr)
 library(ggplot2)
 install.packages('plotrix')
+
 ```
 
 Create t-test function to use later on.
