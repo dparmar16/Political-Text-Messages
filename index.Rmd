@@ -10,7 +10,7 @@ output: html_document
 Clear workspace before starting analysis.
 
 ```{r}
-rm(list = ls())
+rm(list = ls())  
 ```
 
 Install necessary packages.
