@@ -2,7 +2,8 @@
 title: "Political Text Messaging Analysis"
 author: "Divya Parmar"
 date: "April 20, 2018"
-output: html_document
+output: rmarkdown::github_document 
+#Previous output: html_document
 ---
 
 ###Setup
@@ -10,7 +11,7 @@ output: html_document
 Clear workspace before starting analysis.
 
 ```{r}
-rm(list = ls())   
+rm(list = ls())
 ```
 
 Install necessary packages.
